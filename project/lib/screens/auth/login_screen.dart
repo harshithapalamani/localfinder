@@ -200,38 +200,38 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                   ),
-                  //             const SizedBox(height: 24),
-                  //             Card(
-                  //               elevation: 4,
-                  //               shape: RoundedRectangleBorder(
-                  //                 borderRadius: BorderRadius.circular(12),
-                  //               ),
-                  //               child: Padding(
-                  //                 padding: const EdgeInsets.all(16),
-                  //                 child: Column(
-                  //                   children: [
-                  //                     const Text(
-                  //                       'Demo Credentials',
-                  //                       style: TextStyle(
-                  //                         fontWeight: FontWeight.bold,
-                  //                         fontSize: 16,
-                  //                       ),
-                  //                     ),
-                  //                     const SizedBox(height: 8),
-                  //                     const Text('Admin: admin@village.com'),
-                  //                     const Text('Password: admin123'),
-                  //                     const SizedBox(height: 8),
-                  //                     Text(
-                  //                       'Register as a worker or customer to get started!',
-                  //                       style: TextStyle(
-                  //                         color: Colors.grey[600],
-                  //                         fontSize: 12,
-                  //                       ),
-                  //                     ),
-                  //                   ],
-                  //                 ),
-                  //               ),
-                  //             ),
+                  const SizedBox(height: 24),
+                  Card(
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Column(
+                        children: [
+                          const Text(
+                            'Demo Credentials',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          const Text('Admin: admin@village.com'),
+                          const Text('Password: admin123'),
+                          const SizedBox(height: 8),
+                          Text(
+                            'Register as a worker or customer to get started!',
+                            style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
